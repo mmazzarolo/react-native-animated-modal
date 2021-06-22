@@ -29,6 +29,9 @@ The goal of `react-native-modal` is expanding the original react-native `Modal` 
 
 This library is available on npm, install it with: `npm i react-native-modal` or `yarn add react-native-modal`.
 
+Additionally, you should install `react-native-gesture-handler`.
+Check [getting started](https://docs.swmansion.com/react-native-gesture-handler/docs/#installation) for react-native-gesture-handler
+
 ## Usage
 
 Since react-native-modal is an extension of the original react native modal, it works in a similar fashion [react-native original modal](https://reactnative.dev/docs/modal.html).
@@ -307,6 +310,10 @@ You can provide an event handler to the custom backdrop element to dismiss the m
   }
 />
 ```
+
+### Touchable's are not working in react-native-modal
+
+If you are using `Touchables` from react-native, switch it to `react-native-gesture-handler`.
 
 ## Available animations
 
